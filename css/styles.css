@@ -337,6 +337,7 @@ img {
   display: flex;
   align-items: baseline;
 }
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -430,6 +431,13 @@ img {
 .portfolio-discription-list:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
+.portfolio-discription-list {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .modal-btn-portfolio {
   font-weight: 500;
@@ -455,6 +463,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .portfolio-card-discription {
   padding: 20px 23px;
 }
